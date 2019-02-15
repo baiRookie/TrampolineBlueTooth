@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TrampolineBlueTooth_Example' do
+  pod 'TrampolineBlueTooth', :path => '../'
+
+  target 'TrampolineBlueTooth_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
